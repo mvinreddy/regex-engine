@@ -1,0 +1,37 @@
+# ==============================================================================
+# Executables & Binaries
+# ==============================================================================
+# Ignores the compiled driver programs and sandbox executables
+regex_demo
+sandbox
+smartwater
+
+# Ignores any generic compiled binary files
+*.out
+*.exe
+*.o
+*.obj
+
+# ==============================================================================
+# Graphviz & Auto-Generated Visualizations
+# ==============================================================================
+# Keep your specific structural assets (like dfa.dot and dfa.png) safe, 
+# but ignore ad-hoc or scratchpad graph generations.
+# (Optional: Comment these out if you want to track ALL generated graphs)
+smartwater.dot
+smartwater.png
+
+# ==============================================================================
+# IDEs and System Artifacts
+# ==============================================================================
+# macOS system junk
+.DS_Store
+
+# VS Code directory configuration
+.vscode/
+
+# Visual Studio files
+/.vs/
+*.user
+*.suo
+*.db
